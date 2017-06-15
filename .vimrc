@@ -7,6 +7,21 @@ set tabstop=8
 set expandtab
 set shiftwidth=4
 set nocompatible
+syntax on
+color gruvbox
+set bg=dark
+
+" :map <C-a> GVgg
+" :map <C-n> :enew
+" :map <C-o> :e . <Enter>
+" :map <C-s> :w <Enter>
+" :map <C-c> y
+" :map <C-v> p
+" :map <C-x> d
+" :map <C-z> u
+" :map <C-t> :tabnew <Enter>
+" :map <C-i> >>
+autocmd VimEnter * NERDTree
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
